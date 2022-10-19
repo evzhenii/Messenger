@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		590B287A290086A2007CD5BA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B2879290086A2007CD5BA /* Extensions.swift */; };
 		5960ADEC2900698900F1B280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960ADEB2900698900F1B280 /* AppDelegate.swift */; };
 		5960ADEE2900698900F1B280 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960ADED2900698900F1B280 /* SceneDelegate.swift */; };
 		5960ADF02900698900F1B280 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960ADEF2900698900F1B280 /* ConversationsViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		590B2879290086A2007CD5BA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		5960ADE82900698900F1B280 /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5960ADEB2900698900F1B280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5960ADED2900698900F1B280 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +53,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		590B287829008270007CD5BA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5960AE0D29007F2500F1B280 /* LoginViewController.swift */,
+				5960AE0F29007F2A00F1B280 /* RegisterViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		590B287B29009408007CD5BA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5960ADF12900698900F1B280 /* Main.storyboard */,
+				5960ADF92900698B00F1B280 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		5960ADDF2900698900F1B280 = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +90,6 @@
 		5960ADEA2900698900F1B280 /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
-				5960AE082900720800F1B280 /* New Group */,
 				5960AE06290069F700F1B280 /* Resources */,
 				5960AE05290069D700F1B280 /* ViewModels */,
 				5960AE04290069D200F1B280 /* Models */,
@@ -85,10 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				5960ADEF2900698900F1B280 /* ConversationsViewController.swift */,
+				590B287829008270007CD5BA /* Login */,
 				5960AE0929007F0C00F1B280 /* PhotoViewerViewController.swift */,
 				5960AE0B29007F2000F1B280 /* VideoPlayerViewController.swift */,
-				5960AE0D29007F2500F1B280 /* LoginViewController.swift */,
-				5960AE0F29007F2A00F1B280 /* RegisterViewController.swift */,
 				5960AE1129007F4300F1B280 /* NewConversationViewController.swift */,
 				5960AE1329007F4D00F1B280 /* ProfileViewController.swift */,
 			);
@@ -98,8 +116,7 @@
 		5960AE03290069CA00F1B280 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5960ADF12900698900F1B280 /* Main.storyboard */,
-				5960ADF92900698B00F1B280 /* LaunchScreen.storyboard */,
+				590B287B29009408007CD5BA /* Storyboards */,
 				5960ADF72900698B00F1B280 /* Assets.xcassets */,
 			);
 			path = Views;
@@ -125,15 +142,9 @@
 			children = (
 				5960ADEB2900698900F1B280 /* AppDelegate.swift */,
 				5960ADED2900698900F1B280 /* SceneDelegate.swift */,
+				590B2879290086A2007CD5BA /* Extensions.swift */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		5960AE082900720800F1B280 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +227,7 @@
 				5960AE0C29007F2000F1B280 /* VideoPlayerViewController.swift in Sources */,
 				5960AE1229007F4300F1B280 /* NewConversationViewController.swift in Sources */,
 				5960ADEE2900698900F1B280 /* SceneDelegate.swift in Sources */,
+				590B287A290086A2007CD5BA /* Extensions.swift in Sources */,
 				5960ADF62900698900F1B280 /* Messenger.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
