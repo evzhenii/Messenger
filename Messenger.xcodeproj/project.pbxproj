@@ -62,6 +62,15 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		590B287B29009408007CD5BA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5960ADF12900698900F1B280 /* Main.storyboard */,
+				5960ADF92900698B00F1B280 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		5960ADDF2900698900F1B280 = {
 			isa = PBXGroup;
 			children = (
@@ -107,8 +116,7 @@
 		5960AE03290069CA00F1B280 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5960ADF12900698900F1B280 /* Main.storyboard */,
-				5960ADF92900698B00F1B280 /* LaunchScreen.storyboard */,
+				590B287B29009408007CD5BA /* Storyboards */,
 				5960ADF72900698B00F1B280 /* Assets.xcassets */,
 			);
 			path = Views;
